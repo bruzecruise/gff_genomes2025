@@ -9,5 +9,5 @@ split_fasta('consensus.fasta')
 
 The python function parses the merged fasta file based on the headers into 5 files: alternate = atg, primary = ptg, purged_primary = hap, and other = non-matches.
 
-## (2) python script called longest_iso.faa
-This script takes a .faa protein fasta file from an annotation pipeline and filters out only the longest isoform for each gene. Useful for BUSCO analysis
+## (2) python code called longest_iso.py
+This script takes a .faa protein fasta file from the EGAPx annotation pipeline (https://github.com/ncbi/egapx) and filters out only the longest isoform for each gene. Useful for BUSCO analysis. You may have to change the code slightly to get it to work with your .faa headers... 
