@@ -14,4 +14,4 @@ This script takes a .faa protein fasta file from the EGAPx annotation pipeline (
 input protien fasta file needs to be named= complete.protiens.faa
 
 ## (3) python code called longest_NCBI_iso.py
-This script takes a RefSeq gbff and outputs a protein fasta file that has the longest isoform for each gene. Useful for BUSCO analysis. 
+This script takes a RefSeq gbff and outputs a protein fasta file that has the longest isoform for each gene. Useful for BUSCO analysis. You need to edit the script for the name of your RefSeq .gbff file
